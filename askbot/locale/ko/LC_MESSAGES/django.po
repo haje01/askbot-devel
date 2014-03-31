@@ -5632,7 +5632,7 @@ msgstr ""
 #: templates/authopenid/signin.html:94
 #: templates/authopenid/widget_signin.html:98
 msgid "Please, sign in"
-msgstr "로그인해주세요"
+msgstr "로그인해주세요 (그룹웨어 계정)"
 
 #: templates/authopenid/signin.html:101
 #: templates/authopenid/widget_signin.html:105
@@ -7547,7 +7547,7 @@ msgstr "로그아웃"
 
 #: templates/widgets/user_navigation.html:20
 msgid "Hi there! Please sign in"
-msgstr ""
+msgstr "안녕하세요! 로그인하세요"
 
 #: templates/widgets/user_navigation.html:23
 msgid "settings"
