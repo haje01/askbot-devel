@@ -74,13 +74,13 @@ msgstr "제목"
 
 #: forms.py:249 templates/embed/ask_by_widget.html:170
 msgid "Please enter your question"
-msgstr ""
+msgstr "질문을 입력하세요"
 
 #: forms.py:260
 #, python-format
 msgid "must have > %d character"
 msgid_plural "must have > %d characters"
-msgstr[0] ""
+msgstr[0] "%d자 이상이어야 합니다"
 
 #: forms.py:270
 #, python-format
@@ -2836,16 +2836,16 @@ msgstr ""
 
 #: const/__init__.py:320
 msgid "show all tags"
-msgstr ""
+msgstr "모든 태그들"
 
 #: const/__init__.py:321 const/__init__.py:330 const/__init__.py:336
 #: const/__init__.py:342
 msgid "exclude ignored tags"
-msgstr ""
+msgstr "무시할 태그들 제외"
 
 #: const/__init__.py:322 const/__init__.py:331 const/__init__.py:343
 msgid "only interesting tags"
-msgstr ""
+msgstr "흥미로운 태그들만"
 
 #: const/__init__.py:326 const/__init__.py:337 const/__init__.py:344
 msgid "only subscribed tags"
@@ -4575,13 +4575,13 @@ msgstr "배지"
 
 #: templates/badges.html:7
 msgid "Community gives you awards for your questions, answers and votes."
-msgstr "커뮤니티로부터 질문, 답변 및 투표에 대한 상을 받았습니다"
+msgstr "당신은 커뮤니티로부터 질문, 답변 및 투표에 대한 상을 받습니다"
 
 #: templates/badges.html:8
 msgid ""
 "Below is the list of available badges and number of times each type of badge"
 " has been awarded."
-msgstr ""
+msgstr "아래는 받을 수 있는 배지와 각 배지를 몇 회 받았는지에 대한 리스트입니다."
 
 #: templates/badges.html:31
 msgid "Community badges"
@@ -4595,7 +4595,7 @@ msgstr "금 배지: 최고의 영예로서 매우 드뭄"
 msgid ""
 "Gold badge is the highest award in this community. To obtain it you have to show \n"
 "profound knowledge and ability in addition to your active participation."
-msgstr ""
+msgstr "금 배지는 가장 높은 상입니다. 그것을 얻기 위해서는 적극적인 참여뿐만 아니라 깊은 지식과 능력을 보여주어야 합니다."
 
 #: templates/badges.html:42 templates/badges.html.py:46
 msgid ""
@@ -5248,11 +5248,11 @@ msgstr "질문들"
 
 #: templates/question.html:230
 msgid "see more comments"
-msgstr ""
+msgstr "댓글 더 보기"
 
 #: templates/question.html:232 templates/question.html.py:335
 msgid "add a comment"
-msgstr ""
+msgstr "댓글 달기"
 
 #: templates/question.html:245 templates/question/content.html:46
 msgid "Answer Your Own Question"
@@ -6474,9 +6474,13 @@ msgid "mark this answer as correct (click again to undo)"
 msgstr "이 답변이 옳다고 표시 (다시 클릭하면 취소)"
 
 #: templates/question/closed_question_info.html:2
+msgid "Closed for the following reason"
+msgstr "다음의 이유로 종료됨"
+
+#: templates/question/closed_question_info.html:2
 #, python-format
 msgid ""
-"The question has been closed for the following reason "
+"Closed for the following reason "
 "<b>\"%(close_reason)s\"</b> <i>by"
 msgstr "이 질문은 다음의 이유로 종료되었습니다. <b>\"%(close_reason)s\"</b> <i>by"
 
@@ -7251,11 +7255,11 @@ msgstr ""
 
 #: templates/widgets/ask_form.html:22 templates/widgets/ask_form.html.py:24
 msgid "Add details (optional)"
-msgstr ""
+msgstr "상세한 내용 추가 (선택)"
 
 #: templates/widgets/ask_form.html:26
 msgid "Add details"
-msgstr ""
+msgstr "상세한 내용 추가"
 
 #: templates/widgets/ask_form.html:59
 msgid "Select language"
@@ -7502,7 +7506,7 @@ msgstr ""
 
 #: templates/widgets/tag_selector.html:59
 msgid "Show only questions from"
-msgstr ""
+msgstr "다음 질문들만 표시"
 
 #: templates/widgets/tag_selector.html:70
 msgid "Send me email alerts for"
@@ -7996,6 +8000,7 @@ msgid ""
 "Cannot convert, because text has more characters than %(max_chars)s - "
 "maximum allowed for comments"
 msgstr ""
+
 
 #~ msgid "your email needs to be validated see %(details_url)s"
 #~ msgstr ""

@@ -142,15 +142,11 @@ var CPValidator = function() {
                     required: " " + gettext('enter your question'),
                     minlength: interpolate(
                                     ngettext(
-                                        '%(question)s must have > %(length)s character',
-                                        '%(question)s must have > %(length)s characters',
+                                        'question must have > %s character',
+                                        'question must have > %s characters',
                                         askbot['settings']['minTitleLength']
                                     ),
-                                    { 
-                                        'question': askbot['messages']['questionSingular'],
-                                        'length': askbot['settings']['minTitleLength']
-                                    },
-                                    true
+                                    [askbot['settings']['minTitleLength'], ]
                                 )
                 }
             };
