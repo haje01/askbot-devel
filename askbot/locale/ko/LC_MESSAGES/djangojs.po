@@ -256,7 +256,7 @@ msgstr "이 글은 욕설, 광고, 스팸, 악의적인 내용이 포함되어 �
 
 #: media/js/post.js:990 media/js/post.js.c:1497
 msgid "undelete"
-msgstr "이 글을 삭제 하시겠습니까?"
+msgstr "삭제 취소"
 
 #: media/js/post.js:995 media/js/post.js.c:1501
 msgid "delete"
